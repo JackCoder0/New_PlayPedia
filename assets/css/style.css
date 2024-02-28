@@ -1,0 +1,101 @@
+@import url('/assets/css/reset.css');
+@import url('/assets/css/main.css');
+@import url('/assets/css/scroll.css');
+@import url('/assets/css/responsividade.css');
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 5px;
+
+    background: var(--bg-dark);
+    width: 100%;
+}
+
+.header-container img {
+    width: 200px;
+    cursor: pointer;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+}
+
+header li {
+    list-style: none;
+}
+
+.header-nav a {
+    color: var(--font-01);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    position: relative;
+    text-decoration: none;
+}
+
+.header-nav a::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    top: 25px;
+    left: 50%;
+    position: absolute;
+    background: #ffffff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.header-nav a:hover {
+    color: #ffffff;
+    transition: .3s;
+}
+
+.header-nav a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.social-header li a {
+    color: #ffffff;
+}
+
+.social-header li {
+    font-size: 30px;
+    transition: .35s;
+}
+
+.social-icons:hover> :not(:hover) {
+    opacity: .4;
+    transform: scale(0.9);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-dark);
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+footer img {
+    width: 150px;
+}
+
+.header-container img:hover,
+footer img:hover {
+    transform: scale(1.06);
+    transition: .6s;
+}

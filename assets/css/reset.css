@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+:root {
+    --bg-dark: #06141b;
+    --bg-lg-dark: #11212d;
+    --font-01: #9ba8ab;
+    --white: #ccd0cf;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    background: var(--bg-lg-dark);
+    scroll-behavior: smooth;
+}
