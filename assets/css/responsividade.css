@@ -1,4 +1,4 @@
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 767px) {
 
     .social-header {
         display: none;
@@ -26,6 +26,12 @@
     .img-twd {
         width: 340px;
         height: 350px;
+    }
+
+    .img-twd p {
+        top: 260px;
+        left: 20px;
+        font-size: 20px;
     }
 
     .img-snk,

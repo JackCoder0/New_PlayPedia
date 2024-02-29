@@ -8,6 +8,7 @@
 :root {
     --bg-dark: #06141b;
     --bg-lg-dark: #11212d;
+    --bg-btn: rgb(25, 46, 109);
     --font-01: #9ba8ab;
     --white: #ccd0cf;
 }

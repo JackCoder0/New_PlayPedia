@@ -3,9 +3,10 @@
 @import url('/assets/css/scroll.css');
 @import url('/assets/css/responsividade.css');
 
-.header-container {
+header {
     display: flex;
     align-items: center;
+    flex-direction: row;
     justify-content: space-around;
 
     padding: 5px;
@@ -14,7 +15,7 @@
     width: 100%;
 }
 
-.header-container img {
+header img {
     width: 200px;
     cursor: pointer;
 }
@@ -94,7 +95,7 @@ footer img {
     width: 150px;
 }
 
-.header-container img:hover,
+header img:hover,
 footer img:hover {
     transform: scale(1.06);
     transition: .6s;

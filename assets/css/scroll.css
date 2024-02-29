@@ -9,7 +9,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #8257e6;
+    background: var(--bg-btn);
     border-radius: 10px;
 }
 
@@ -130,7 +130,7 @@
 }
 
 .scroll-btn {
-    background: #8257e6;
+    background: var(--bg-btn);
     border: none;
     border-radius: 0.3rem;
     min-height: 2.5rem;
